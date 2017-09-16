@@ -74,12 +74,27 @@ header.mastHead {
   header.mastHead .container .intro-text .intro-summary {
     font-size: 24px; }
 
+.navbar-shrink {
+  background-color: #bcccdb !important; }
+
+.nav-link.active {
+  color: #11193c !important; }
+
+.nav-link:hover {
+  color: #11193c !important; }
+
+p.align-left {
+  text-align: left; }
+
 div.triangle {
   width: 0px;
   height: 0px;
   border-left: 0px solid transparent;
   border-right: 1920px solid transparent;
   border-top: 100px solid #e5f1fd; }
+
+.white {
+  color: white; }
 
 #mainNav {
   background-color: #e5f1fd; }
@@ -152,12 +167,27 @@ header.mastHead {
   header.mastHead .container .intro-text .intro-summary {
     font-size: 24px; }
 
+.navbar-shrink {
+  background-color: #bcccdb !important; }
+
+.nav-link.active {
+  color: #11193c !important; }
+
+.nav-link:hover {
+  color: #11193c !important; }
+
+p.align-left {
+  text-align: left; }
+
 div.triangle {
   width: 0px;
   height: 0px;
   border-left: 0px solid transparent;
   border-right: 1920px solid transparent;
   border-top: 100px solid #e5f1fd; }
+
+.white {
+  color: white; }
 
 header.masthead {
   text-align: center;
@@ -496,9 +526,45 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+.bg-light {
+  background-color: #e5f1fd !important; }
+
+header.mastHead {
+  color: #1a2657; }
+  header.mastHead .container .intro-text div {
+    color: #1a2657; }
+  header.mastHead .container .intro-text .intro-lead-in {
+    font-size: 75px; }
+  header.mastHead .container .intro-text .intro-heading {
+    font-size: 46px; }
+  header.mastHead .container .intro-text .intro-summary {
+    font-size: 24px; }
+
+.navbar-shrink {
+  background-color: #bcccdb !important; }
+
+.nav-link.active {
+  color: #11193c !important; }
+
+.nav-link:hover {
+  color: #11193c !important; }
+
+p.align-left {
+  text-align: left; }
+
+div.triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 0px solid transparent;
+  border-right: 1920px solid transparent;
+  border-top: 100px solid #e5f1fd; }
+
+.white {
+  color: white; }
+
 section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-color: #00aeef;
+  background-image: unset;
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
@@ -675,9 +741,24 @@ header.mastHead {
   header.mastHead .container .intro-text .intro-summary {
     font-size: 24px; }
 
+.navbar-shrink {
+  background-color: #bcccdb !important; }
+
+.nav-link.active {
+  color: #11193c !important; }
+
+.nav-link:hover {
+  color: #11193c !important; }
+
+p.align-left {
+  text-align: left; }
+
 div.triangle {
   width: 0px;
   height: 0px;
   border-left: 0px solid transparent;
   border-right: 1920px solid transparent;
   border-top: 100px solid #e5f1fd; }
+
+.white {
+  color: white; }

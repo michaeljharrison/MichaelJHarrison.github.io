@@ -3,12 +3,14 @@
 $lightBlue: #00aeef;
 $middleBlue: #245eac;
 $darkBlue: #1a2657;
+$darkestBlue: #11193c;
 
 // Interaction Colours:
 $buttonMain: #3fa9f5;
 
 // Backgrounds:
 $mainBackground: #e5f1fd;
+$navBackgroundSecondary: #bcccdb;
 $secondaryBackground: #ffffff;
 
 .bg-light {
@@ -35,6 +37,20 @@ header.mastHead {
   }
 }
 
+.navbar-shrink {
+  background-color: $navBackgroundSecondary !important;
+}
+.nav-link.active {
+  color: $darkestBlue !important;
+}
+.nav-link:hover {
+  color: $darkestBlue !important;
+}
+
+p.align-left {
+  text-align: left;
+}
+
 div.triangle {
   width: 0px;
   height: 0px;
@@ -42,4 +58,8 @@ div.triangle {
   border-right: 1920px solid transparent;
 
   border-top: 100px solid $mainBackground;
+}
+
+.white {
+  color: white;
 }
