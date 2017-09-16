@@ -1,0 +1,45 @@
+// Specific colors for 7YM logo and theme.
+// Logo Colours:
+$lightBlue: #00aeef;
+$middleBlue: #245eac;
+$darkBlue: #1a2657;
+
+// Interaction Colours:
+$buttonMain: #3fa9f5;
+
+// Backgrounds:
+$mainBackground: #e5f1fd;
+$secondaryBackground: #ffffff;
+
+.bg-light {
+  background-color: $mainBackground !important;
+}
+
+header.mastHead {
+  color: $darkBlue;
+  .container {
+    .intro-text {
+      div {
+        color: $darkBlue;
+      }
+      .intro-lead-in {
+        font-size: 75px;
+      }
+      .intro-heading {
+        font-size: 46px;
+      }
+      .intro-summary {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+div.triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 0px solid transparent;
+  border-right: 1920px solid transparent;
+
+  border-top: 100px solid $mainBackground;
+}

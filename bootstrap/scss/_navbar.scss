@@ -1,0 +1,79 @@
+// Styling for the navbar
+@import '7ym.scss';
+#mainNav {
+  background-color: $mainBackground;
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: $theme-primary;
+    @include heading-font;
+  }
+  .navbar-brand {
+    background-image: url('../img/7ym_logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    color: $theme-primary;
+    @include script-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken($theme-primary, 10%);
+    }
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 90%;
+        font-weight: 400;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: $middleBlue;
+        @include heading-font;
+        &.active,
+        &:hover {
+          color: $theme-primary;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: $mainBackground;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1em 1em !important;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: $gray-darker;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+  }
+}
