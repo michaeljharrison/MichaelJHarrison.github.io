@@ -140,7 +140,7 @@ a {
   text-align: center;
 
   color: white;
-  background: url('../img/intro-bg.jpg') no-repeat bottom center scroll;
+  background: url('../img/IMG_0436.png') no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -202,7 +202,7 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/downloads-bg.jpg') no-repeat center center scroll;
+  background: url('../img/IMG_0424.png') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -237,8 +237,8 @@ a {
 }
 
 .btn-default {
-  color: $primary;
-  border: 1px solid $primary;
+  color: white;
+  border: 1px solid white;
   background-color: transparent;
   &:focus,
   &:hover {
@@ -298,4 +298,16 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: fade-out(white, 0.8);
+}
+
+.fa.fa-circle.fa-stack-2x.text-primary {
+  color: $primary !important;
+}
+
+.learnMore.btn {
+  margin-bottom: 40px;
+}
+
+#map {
+  margin-bottom: 80px;
 }

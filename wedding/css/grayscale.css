@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale v4.0.0-beta (http://startbootstrap.com/template-overviews/grayscale)
+ * Start Bootstrap - Grayscale v4.0.0-beta (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
@@ -41,10 +41,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3; }
+  color: #bd6df8; }
   a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c; }
+    color: #910cf3; }
 
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/IMG_0436.png") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,7 +146,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/IMG_0424.png") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -174,14 +174,14 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
+  color: white;
+  border: 1px solid white;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
     color: black;
-    border: 1px solid #42DCA3;
+    border: 1px solid #bd6df8;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #bd6df8; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
@@ -220,3 +220,12 @@ img::-moz-selection {
 
 body {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0.2); }
+
+.fa.fa-circle.fa-stack-2x.text-primary {
+  color: #bd6df8 !important; }
+
+.learnMore.btn {
+  margin-bottom: 40px; }
+
+#map {
+  margin-bottom: 80px; }
