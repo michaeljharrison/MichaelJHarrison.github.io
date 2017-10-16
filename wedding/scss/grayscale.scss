@@ -202,12 +202,53 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/IMG_0424.png') no-repeat center center scroll;
+  background: url('../img/IMG_0440.png') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.rsvp-section {
+  color: white;
+  background: url('../img/IMG_0424.png') no-repeat center center scroll;
+  height: 600px;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .rsvpForm {
+    display: flex;
+    flex-direction: column;
+    .nameInput {
+      margin-top: 10px;
+    }
+    .attendingDiv {
+      margin-top: 10px;
+      flex-direction: row;
+      span {
+        float: left;
+        margin-right: 20px;
+      }
+      input {
+        float: left;
+      }
+    }
+    .notesInput {
+      margin-top: 10px;
+      height: 80px;
+    }
+    .submitButton {
+      margin-top: 10px;
+    }
+  }
 }
 
 #map {
@@ -310,4 +351,18 @@ body {
 
 #map {
   margin-bottom: 80px;
+}
+.purple {
+  color: $primary;
+}
+
+.textWrapper {
+  background: $secondary;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.greyBack {
+  background: $secondary;
+  border-radius: 10px;
 }
