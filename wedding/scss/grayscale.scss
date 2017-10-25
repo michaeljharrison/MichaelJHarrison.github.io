@@ -362,7 +362,22 @@ body {
   border-radius: 10px;
 }
 
+.textWrapper.minimal {
+  height: 60px;
+}
+
+.textWrapper.extra {
+  height: 120px;
+}
+
 .greyBack {
   background: $secondary;
   border-radius: 10px;
+}
+
+.attendingLabel {
+  margin-right: 30px;
+}
+.fixedLabel {
+  width: 130px;
 }

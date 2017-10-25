@@ -269,6 +269,18 @@ body {
   height: 100px;
   border-radius: 10px; }
 
+.textWrapper.minimal {
+  height: 60px; }
+
+.textWrapper.extra {
+  height: 120px; }
+
 .greyBack {
   background: rgba(33, 32, 32, 0.76);
   border-radius: 10px; }
+
+.attendingLabel {
+  margin-right: 30px; }
+
+.fixedLabel {
+  width: 130px; }
