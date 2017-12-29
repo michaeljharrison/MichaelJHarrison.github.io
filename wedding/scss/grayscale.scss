@@ -175,7 +175,7 @@ a {
 
 .download-section {
   color: white;
-  background: url('../img/Second.png') no-repeat center center scroll;
+  background: url('../img/Second.jpg') no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -185,7 +185,7 @@ a {
 
 .rsvp-section {
   color: white;
-  background: url('../img/Third.png') no-repeat center center scroll;
+  background: url('../img/Third.jpg') no-repeat center center scroll;
   height: 600px;
   background-color: black;
   -webkit-background-size: cover;
@@ -350,4 +350,8 @@ body {
 
 .fixedLabel {
   width: 130px;
+}
+
+.notAttending {
+  margin-left: 8px;
 }

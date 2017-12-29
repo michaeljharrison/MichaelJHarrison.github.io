@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/IMG_0436.png") no-repeat bottom center scroll;
+  background: url("../img/Header.png") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -146,7 +146,7 @@ a {
 
 .download-section {
   color: white;
-  background: url("../img/IMG_0440.png") no-repeat center center scroll;
+  background: url("../img/Second.jpg") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -155,7 +155,7 @@ a {
 
 .rsvp-section {
   color: white;
-  background: url("../img/IMG_0424.png") no-repeat center center scroll;
+  background: url("../img/Third.jpg") no-repeat center center scroll;
   height: 600px;
   background-color: black;
   -webkit-background-size: cover;
@@ -284,3 +284,6 @@ body {
 
 .fixedLabel {
   width: 130px; }
+
+.notAttending {
+  margin-left: 8px; }
