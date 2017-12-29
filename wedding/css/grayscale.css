@@ -93,6 +93,9 @@ a {
         #mainNav .nav-link.active:hover {
           color: white; } }
 
+#how {
+  margin-bottom: 20px; }
+
 .masthead {
   display: table;
   width: 100%;
@@ -266,14 +269,14 @@ body {
 
 .textWrapper {
   background: rgba(33, 32, 32, 0.76);
-  height: 100px;
+  height: 140px;
   border-radius: 10px; }
 
 .textWrapper.minimal {
-  height: 60px; }
+  height: 80px; }
 
 .textWrapper.extra {
-  height: 120px; }
+  height: 160px; }
 
 .greyBack {
   background: rgba(33, 32, 32, 0.76);
